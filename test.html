@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+ <h3>Input:</h3>
+    <label for="textInput1">Input: </label>
+    <input type="text" id="textInput1" />
+     <button type="button" onclick="getInputValue()">
+      Get Value From Input
+    </button>
+    <h3>Output:</h3>
+    <p id="output"></p>
+    <script>
+        let A = 1;
+        let z = A+A+A;
+        let L = 50;
+        let B = 5;
+        let y = L+B+A+A+A;
+        let R = 1000;
+        let CR = 900;
+        let ZC = 90;
+        let AB = 4;
+        
+        let f = R+CR+ZC+AB;
+      function getInputValue() {
+        let inputValue = document.getElementById("textInput1").value;
+        document.getElementById("output").innerHTML = + z;
+        document.getElementById("output").innerHTML = + y;
+        document.getElementById("output").innerHTML = + f;
+      }
+    </script>
+</body>
+</html>
